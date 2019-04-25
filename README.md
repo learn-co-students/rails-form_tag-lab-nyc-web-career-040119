@@ -12,7 +12,6 @@
 
 5. Build a `new` action that renders a form that submits to the `create` action
 
-
 ## Instructions
 
 The two specs for this lab that are currently failing are located within the `form page` feature in `specs/features/student_spec.rb`.
