@@ -1,0 +1,6 @@
+<h1>Student Form</h1>
+<%=form_tag  "/students" do %>
+  <p>First Name:<%= text_field_tag "student[first_name]"%> <!--basically text_field_tag is type = text and "rapper[name]" is name = "rapper[name]" -->
+  Last Name: <%= text_field_tag "student[last_name]" %></p>
+  <%= submit_tag "Submit Student" %>
+<% end %>
